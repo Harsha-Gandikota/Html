@@ -1,0 +1,80 @@
+html{
+  font-size: 150%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#title {
+  text-align: center;
+  color: white;
+}
+
+#description {
+  text-align: center;
+  color: white;
+}
+
+#survey-form {
+  background-color: gray;
+  opacity: 0.9;
+  padding: 1em 1.25em 2em 2em;
+}
+
+input, .text-box {
+  width: 90%;
+}
+
+.text-box {
+  min-height: 5em;
+}
+
+label {
+  display: flex;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  justify-content: flex-start;
+}
+
+.form-body {
+  width: 100%;
+}
+
+
+.radioinput, .checkboxinput {
+  max-width: 1.25em;
+}
+
+#role-description {
+  margin-top: 0.125em;
+  margin-bottom: 0.125em;
+}
+
+.form-body {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+span {
+  font-style: italic;
+  font-size: 0.7em;
+}
+
+button {
+  display: block;
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+#submit {
+  background-color: green;
+  border-radius: 0.25em;
+  color: white;
+}
